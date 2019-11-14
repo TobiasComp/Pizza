@@ -1,0 +1,11 @@
+li {
+    display: inline-block;
+    width: 100px;
+
+}
+
+li:hover {
+    font-size: 1.3em;
+    color: red;
+    text-decoration-line: underline;
+}
