@@ -1,3 +1,9 @@
 
 
 <app-header></app-header>
+
+<app-drink *ngIf="paging.currentPanel=='drink'"></app-drink>
+<app-pizza *ngIf="paging.currentPanel=='pizza'"></app-pizza>
+<app-salad *ngIf="paging.currentPanel=='salad'"></app-salad>
+
+<app-paginator></app-paginator>

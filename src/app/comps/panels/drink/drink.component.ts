@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DrinkService } from '../../../services/drink.service';
 
 @Component({
   selector: 'app-drink',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DrinkComponent implements OnInit {
 
-  constructor() { }
+  constructor(public drinksService:DrinkService) { 
+    console.log("I'm at drink panel");
+    
+    
+  }
 
   ngOnInit() {
   }

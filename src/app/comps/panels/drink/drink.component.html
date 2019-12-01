@@ -1,1 +1,12 @@
 <p>drink works!</p>
+<div class="flex">
+    <div>
+        <p>Are You Thirsty??</p>
+        <ul>
+            <li *ngFor = "let drink of drinksService.drinks">{{drink.name}}</li>
+        </ul>
+    </div>
+    <div>
+        <app-drink-card></app-drink-card>
+    </div>
+</div>

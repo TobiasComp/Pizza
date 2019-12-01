@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PagingService } from '../../../services/paging.service';
 
 @Component({
   selector: 'app-nav',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  constructor(public paging:PagingService) { }
 
   ngOnInit() {
+  }
+  navTo(pageName:string){
+    this.paging.currentPanel = pageName;
   }
 
 }

@@ -9,6 +9,9 @@ import { PaginatorComponent } from './comps/general/paginator/paginator.componen
 import { PizzaComponent } from './comps/panels/pizza/pizza.component';
 import { SaladComponent } from './comps/panels/salad/salad.component';
 import { DrinkComponent } from './comps/panels/drink/drink.component';
+import { PizzaCardComponent } from './comps/cards/pizza-card/pizza-card.component';
+import { DrinkCardComponent } from './comps/cards/drink-card/drink-card.component';
+import { SaladCardComponent } from './comps/cards/salad-card/salad-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { DrinkComponent } from './comps/panels/drink/drink.component';
     PaginatorComponent,
     PizzaComponent,
     SaladComponent,
-    DrinkComponent
+    DrinkComponent,
+    PizzaCardComponent,
+    DrinkCardComponent,
+    SaladCardComponent
   ],
   imports: [
     BrowserModule

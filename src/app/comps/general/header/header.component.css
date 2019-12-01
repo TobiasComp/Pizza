@@ -1,14 +1,18 @@
 .header {
     border: 1px solid black;
+    /* background-color: black; */
 }
 
 .navigation {
-    width: 50%
+    width: 50%;
+    text-align: center;
 }
 
 div{
     border: 1px solid pink;
+    /* color: white; */
 }
-.logo {
-    
+.logo > img {
+    height: 100px;
+
 }
